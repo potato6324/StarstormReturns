@@ -24,6 +24,9 @@ local sound_shoot1b		= Resources.sfx_load(NAMESPACE, "ExploderShoot1b",	path.com
 local exploder = Object.new(NAMESPACE, "Exploder", Object.PARENT.enemyClassic)
 local exploder_id = exploder.value
 
+-- workaround for a critical bug in the game itself where custom enemy objects aren't correctly created by the Artifact of Cognation's effect
+gm.ds_map_set(gm.variable_global_get("artifact_cognation_enemy_blacklist"), exploder_id, true)
+
 exploder.obj_sprite = sprite_idle
 exploder.obj_depth = 11 -- depth of vanilla pEnemyClassic objects
 
