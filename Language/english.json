@@ -17,6 +17,12 @@
 			"description" : "The <y>Nemesis Commando</c>'s origins are unknown, but something is clear, he's no longer who he once was.",
 			"endQuote": "..and so he left, carrying new sense of humanity within.",
 		},
+		"cyborg" : {
+			"name" :  "Cyborg",
+			"nameUpper" : "CYBORG",
+			"description" : "The <y>CYBORG</c> is VERSATILE and very TIME EFFICIENT.\nBoth the <y>UNMAKER</c> and <y>OVERHEAT REDRESS</c> allow you to achieve GREAT DAMAGE OUTPUT.\n<y>RISING STAR</c> allows for PRECISE ELIMINATIONS, useful when CONTENDERS are out of reach.\n<y>CYBORG</c> can create personal portals he can <y>RECALL</c> to,\nopening the door for THOUSANDS of opportunities. ",
+			"endQuote" : "..and so it left, with a broken arm and no spare parts.",
+		},
 	},
 
 	"skill" : {
@@ -63,6 +69,38 @@
 		"nemesisCommandoV2": {
 			"name": "Devastator",
 			"description": "Fire a rocket for <y>1000% damage</c> to a single enemy. Surrounding enemies take <y>50% damage</c> and are <y>stunned</c>.\nIf used <b>airborne</c>, fire <y>downwards</c> at an angle."
+		},
+		"cyborgZ" : {
+			"name" : "Unmaker",
+			"description" : "Shoot a CONTENDER inflicting <y>185% DAMAGE</c>."
+		},
+		"cyborgStar" : {
+			"name" : "Rising Star",
+			"description" : "Quickly fire THREE shots at CONTENDERS in front of you for <y>3x240% DAMAGE</c>. Each shot <y>STUNS</c>."
+		},
+		"cyborgX" : {
+			"name" : "Dash",
+			"description" : "<y>Slide</c> on your ASS like a BLOODY IDIOT. Any CONTENDERS you pass through get <b>MARKED</c> for <y>180% DAMAGE</c>."
+		},
+		"cyborgC" : {
+			"name" : "Recall",
+			"description" : "Create a WARP POINT. Once a WARP POINT is set, <b>teleport to its LOCATION</c>. Teleporting <b>REDUCES SKILL COOLDOWNS</c>."
+		},
+		"recall_point" : {
+			"name" : "Recall Point",
+			"description" : "Create a personal warp point."
+		},
+		"recall" : {
+			"name" : "Recall",
+			"description" : "Teleport back to the personal warp point. <b>Hold to remove.</c>"
+		},
+		"cyborgV" : {
+			"name" : "Overheat Redress",
+			"description" : "<y>Blast yourself backwards</c>, firing a GREATER ENERGY BULLET. Deals a MAXIMUM of <y>400% DAMAGE PER SECOND</c>."
+		},
+		"cyborgVBoosted" : {
+			"name" : "Gamma Overheat Redress",
+			"description" : "<y>Blast yourself backwards</c>, firing a GREATER ENERGY BULLET. Deals a MAXIMUM of <y>650% DAMAGE PER SECOND</c>."
 		},
 	},
 
